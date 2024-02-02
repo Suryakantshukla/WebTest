@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" href="GridCSS.css">
+</head>
+<body>
+
+    <header>
+        <img class="image" src="ram.jpg" alt="Shri Raam">
+        <h1>Suryakant Shukla</h1>
+    </header>
+<em><b>
+<div class="grid-container">
+  
+  <div class="grid-item">JAI SHREE RAAM</div>
+  <div class="grid-item">JAI SHREE RAAM</div>
+  <div class="grid-item">JAI SHREE RAAM</div>  
+  <div class="grid-item">JAI SHREE RAAM</div>
+  <div class="grid-item">JAI SHREE RAAM</div>
+  <div class="grid-item">JAI SHREE RAAM</div>  
+</div>
+
+<footer>
+    <p>© 2024 Suryakant kr. Shukla</p>
+</footer>
+</body>
+</html>
+
+
