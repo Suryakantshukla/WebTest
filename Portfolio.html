@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- <link rel="stylesheet" href="Portfoliocss.css"> -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: powderblue;
+            background-image: url()
+        }
+        
+        header {
+            background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,26,176,1) 35%, rgba(0,212,255,1) 100%);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        
+        .image{
+            width: 150px;
+            height: 140px;
+            float: left;
+            padding:0%;
+        }
+        .image:hover{
+            border: 2px rgb(176, 24, 24);
+            border-radius: 5px;
+        }
+        
+        header nav ul {
+            list-style:circle;
+            padding: 0;
+        }
+        
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        header nav ul li a {
+            color: #d2c6c6;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        div1{
+        border: 1px solid black;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          margin-right: 150px;
+          margin-left: 80px;
+          background-color: lightblue;
+          border-radius: 15px;
+        }
+        
+        
+        footer {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            padding: 20px;
+            background: rgb(10,9,44);
+            background: linear-gradient(90deg, rgba(10,9,44,1) 0%, rgba(40,13,78,1) 6%, rgba(126,26,176,1) 35%, rgba(0,212,255,1) 100%);
+            color: white;
+        }
+        
+        .portfolio-item {
+            margin-bottom: 20px;
+            width: 50%;
+            height: 50%;
+        }
+        
+        .portfolio-item img {
+            width: 50%;
+            height: 50%;
+        }
+        
+        .developer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            color: #333;
+        
+        }
+        
+        
+        @media (max-width: 600px) {
+            header nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <img class="image" src="MYIMG.jpg">
+        <h1>Suryakant Shukla</h1>
+        
+        <nav>   
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Developer">Developer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="About">
+        <h2>About Me</h2> 
+           <b><i>Motivated and enthusiastic Full Stack Web 
+            developer seeking an opportunity to utilize 
+            my skills and knowledge to contribute to 
+            the development of innovative web 
+            applications. Eager to learn and grow in a 
+            collaborative environment and deliver 
+            high-quality solution to meet client's
+            needs</i></b>
+           </div>
+
+    <section id="Portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-item">
+            <div>
+            <p>➢ ZENESIS INFOTECH VARANASI UTTAR PRADESH INDIA <br>
+                ➢ Hypertext Preprocessor | March 2022 – May 2022 
+            </div>
+            <div>
+                <p>
+                ➢ GENOVIQ WEB PRIVATE LIMITED VARANASI INDIA <br>
+                ➢ Web Development | Oct 2021 – Nov 2021 </p>
+            </div>
+        </div>
+        <!-- Repeat for more portfolio items -->
+    </section>
+
+    <section id="Contact">
+        <h2>Contact</h2>
+        <p><b>9725195036</b></p>
+        <p><b>Email: Suryakantkshukla@gmail.com</b></p>
+        <a href="www.google.com"></a>
+
+    </section>
+    <section id="Developer">
+    <div class="Developer">
+        Suryakant Kr. Shukla
+       Front-End Developer
+    </div>   
+    </section>
+
+    <h2>Using individual margin properties</h2>
+
+    <div class="div1">
+    <p>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <p>© 2024 Suryakant Shukla</p>
+    </footer>
+</body>
+</html>
